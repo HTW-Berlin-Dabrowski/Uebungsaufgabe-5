@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c123b21-2acf-4a97-ac06-fcd7745f9ff2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MIDIFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MIDIToolsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MIDITrackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NoteTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729174797614</updated>
       <workItem from="1729174799772" duration="117000" />
-      <workItem from="1729175588628" duration="3587000" />
+      <workItem from="1729175588628" duration="3924000" />
     </task>
     <servers />
   </component>
