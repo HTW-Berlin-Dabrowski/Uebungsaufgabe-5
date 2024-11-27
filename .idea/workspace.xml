@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c123b21-2acf-4a97-ac06-fcd7745f9ff2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RecipeBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RecipeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecipeBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecipeBook.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c123b21-2acf-4a97-ac06-fcd7745f9ff2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +53,7 @@
     "Gradle.RecipeBookTest.testAddRecipe.executor": "Run",
     "Gradle.RecipeBookTest.testAddRecipeOverCapacity.executor": "Run",
     "Gradle.RecipeBookTest.testGetRecipes.executor": "Run",
+    "Gradle.RecipeBookTest.testGetRecipesByTime.executor": "Run",
     "Gradle.RecipeBookTest.testNewConstructor.executor": "Run",
     "Gradle.RecipeBookTest.testPrintByCategory.executor": "Run",
     "Gradle.RecipeBookTest.testPrintRecipes.executor": "Run",
@@ -67,6 +61,7 @@
     "Gradle.RecipeBookTest.testRemoveRecipe.executor": "Run",
     "Gradle.RecipeTest.executor": "Run",
     "Gradle.RecipeTest.testAddIngredient.executor": "Run",
+    "Gradle.RecipeTest.testNewConstructor.executor": "Run",
     "Gradle.RecipeTest.testRemoveIngredient.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RecipeBookTest.testAddPrepTime">
+  <component name="RunManager" selected="Gradle.RecipeTest">
     <configuration name="RecipeBookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RecipeBookTest.testGetRecipes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecipeBookTest.testGetRecipesByTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,31 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;RecipeBookTest.testGetRecipes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RecipeBookTest.testNewConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RecipeBookTest.testNewConstructor&quot;" />
+            <option value="&quot;RecipeBookTest.testGetRecipesByTime&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,6 +173,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="RecipeTest.testNewConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;RecipeTest.testNewConstructor&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Uebungsaufgabe-5" />
       <method v="2">
@@ -217,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RecipeBookTest.testAddPrepTime" />
-        <item itemvalue="Gradle.RecipeBookTest.testNewConstructor" />
-        <item itemvalue="Gradle.RecipeBookTest" />
         <item itemvalue="Gradle.RecipeTest" />
-        <item itemvalue="Gradle.RecipeBookTest.testGetRecipes" />
+        <item itemvalue="Gradle.RecipeBookTest" />
+        <item itemvalue="Gradle.RecipeTest.testNewConstructor" />
+        <item itemvalue="Gradle.RecipeBookTest.testGetRecipesByTime" />
+        <item itemvalue="Gradle.RecipeBookTest.testAddPrepTime" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +239,7 @@
       <workItem from="1729175588628" duration="3924000" />
       <workItem from="1732721604812" duration="144000" />
       <workItem from="1732727866936" duration="1135000" />
-      <workItem from="1732730442386" duration="1318000" />
+      <workItem from="1732730442386" duration="2326000" />
     </task>
     <servers />
   </component>
