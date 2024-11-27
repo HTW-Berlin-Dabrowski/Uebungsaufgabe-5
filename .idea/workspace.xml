@@ -46,36 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.RecipeBookTest.executor": "Run",
-    "Gradle.RecipeBookTest.testAddPrepTime.executor": "Run",
-    "Gradle.RecipeBookTest.testAddRecipe.executor": "Run",
-    "Gradle.RecipeBookTest.testAddRecipeOverCapacity.executor": "Run",
-    "Gradle.RecipeBookTest.testGetRecipes.executor": "Run",
-    "Gradle.RecipeBookTest.testGetRecipesByTime.executor": "Run",
-    "Gradle.RecipeBookTest.testNewConstructor.executor": "Run",
-    "Gradle.RecipeBookTest.testPrintByCategory.executor": "Run",
-    "Gradle.RecipeBookTest.testPrintRecipes.executor": "Run",
-    "Gradle.RecipeBookTest.testRecipeyByCatecory.executor": "Debug",
-    "Gradle.RecipeBookTest.testRemoveRecipe.executor": "Run",
-    "Gradle.RecipeTest.executor": "Run",
-    "Gradle.RecipeTest.testAddIngredient.executor": "Run",
-    "Gradle.RecipeTest.testNewConstructor.executor": "Run",
-    "Gradle.RecipeTest.testRemoveIngredient.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.RecipeBookTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testAddPrepTime.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testAddRecipe.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testAddRecipeOverCapacity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testGetRecipes.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testGetRecipesByTime.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testNewConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testPrintByCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testPrintRecipes.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeBookTest.testRecipeyByCatecory.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecipeBookTest.testRemoveRecipe.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeTest.testAddIngredient.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeTest.testNewConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecipeTest.testRemoveIngredient.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.RecipeTest">
     <configuration name="RecipeBookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
