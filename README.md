@@ -4,8 +4,8 @@ Beachten Sie, dass ArrayLists zwar ähnlich, aber nicht identisch sind wie Array
 
 # Aufgabe 1
 
-Passen Sie die Metode **getIngredients()** an, sodass sie eine Array Liste zurückgibt. Ändern Sie auch den Datentyp des Zutaten-Arrays zu einer Array Liste. 
-Passen Sie auch die Methoden zum Hinzufügen und Entfernen von Zutaten an. Ändern Sie nur den Datentyp, nicht die Logik der Methode (sie soll weiterhin prüfen, ob eine Zutat schon vorhanden ist).
+Passen Sie die Metoden `addIngredients()` und `removeIngredients()` an, sie nicht mehr mit Arrays, sondern mit Array Listen arbeitet. Ändern Sie auch den Datentyp des Zutaten-Arrays zu einer Array Liste. 
+Ändern Sie nur den Datentyp, nicht die Logik der Methode (sie soll weiterhin prüfen, ob eine Zutat schon vorhanden ist).
 
 # Aufgabe 2
 
