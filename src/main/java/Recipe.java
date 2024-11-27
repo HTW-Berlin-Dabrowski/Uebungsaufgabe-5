@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Recipe {
 
     private String name;
@@ -6,18 +8,29 @@ public class Recipe {
     private int rating;
 
     private String[] validCategories = {"omnivor", "vegetarisch", "vegan"};
-    private String[] ingredients;
+    private ArrayList<String> ingredients;
 
     Recipe(String name, int prepTime, int rating) {
         this.name = name;
         this.prepTime = prepTime;
         this.rating = rating;
-        this.ingredients = new String[5];
+        this.ingredients = new ArrayList<>();
     }
 
     Recipe(String name, int prepTime) {
         this.name = name;
         this.prepTime = prepTime;
+        this.ingredients = new ArrayList<>();
+    }
+
+    Recipe(String info) {
+        String[] attributes = info.split(";");
+        this.name = attributes[0];
+        this.prepTime = Integer.parseInt(attributes[1]);
+        if (attributes.length > 2) {
+            this.rating = Integer.parseInt(attributes[2]);
+        }
+        this.ingredients = new ArrayList<>();
     }
 
     public String getName() {
@@ -82,42 +95,18 @@ public class Recipe {
     }
 
     public boolean addIngredient(String ingredient) {
-        if (containsIngredient(ingredient)) {
+        if (ingredients.contains(ingredient)) {
             System.out.println("Hinzufügen fehlgeschlagen: Zutat " + ingredient + " ist bereits vorhanden.");
             return false;
         }
-        for (int i = 0; i < ingredients.length; i++) {
-            if (ingredients[i] == null) {
-                ingredients[i] = ingredient;
-                System.out.println("Zutat " + ingredient + " hinzugefügt.");
-                return true;
-            }
-        }
-        return false;
+        return ingredients.add(ingredient);
     }
 
     public boolean removeIngredient(String ingredient) {
-        if (!containsIngredient(ingredient)) {
+        if (!ingredients.contains(ingredient)) {
             System.out.println("Löschen fehlgeschlagen: Zutat " + ingredient + " ist nicht vorhanden.");
             return false;
         }
-        for (int i = 0; i < ingredients.length; i++) {
-            if (ingredients[i].equals(ingredient)) {
-                ingredients[i] = null;
-                System.out.println("Zutat " + ingredient + " entfernt.");
-                return true;
-            }
-        }
-        return false;
+        return ingredients.remove(ingredient);
     }
-
-    private boolean containsIngredient(String ingredient) {
-        for (int i = 0; i < ingredients.length; i++) {
-            if (ingredients[i] != null && ingredients[i].equals(ingredient)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
 }
