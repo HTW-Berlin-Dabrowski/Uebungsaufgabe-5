@@ -9,25 +9,28 @@ Passen Sie auch die Methoden zum Hinzufügen und Entfernen von Zutaten an. Ände
 
 # Aufgabe 2
 
-Ändern Sie auch die Variable Rezepte-Array in der Klasse `RecipeBook` zu einer Array List. Passen Sie außerdem die Methoden entsprechend an.  
+Ändern Sie auch die Variable `recipes` in der Klasse `RecipeBook` zu einer Array List. Passen Sie außerdem die Methoden entsprechend an.  
+Hinweis: Nach der Änderung sollte die Methode `recipeByCategory()` eine Array Liste, kein Array mehr zurückgeben.
 
 # Aufgabe 3
 
-Passen Sie den Constructor der Klasse `Recipe` so an, dass sie nur noch einen String als Argument nimmt, in dem alle Informationen übergeben werden. Sie können dann den anderen Konstruktor löschen, achten Sie aber darauf, dass trotzdem bei der Initialisierung nicht unbedingt alle Informationen übergeben werden müssen. 
+Schreiben Sie einen neuen Constructor in der Klasse `Recipe`, der einen String als Argument nimmt, in dem alle Informationen übergeben werden. Achten Sie darauf, dass trotzdem bei der Initialisierung nicht unbedingt alle Informationen übergeben werden müssen. 
 
 Der Konstruktor kann nach der Änderung beispielsweise so aufgerufen werden:
 ```java
-Recipe pancakes = new Recipe("Apfelpfannkuchen;20;vegetarisch;4");
+Recipe pancakes = new Recipe("Apfelpfannkuchen;20;4");
 ```
 oder auch so:
 ```java
-Recipe pancakes = new Recipe("Apfelpfannkuchen;20;vegetarisch");
+Recipe pancakes = new Recipe("Apfelpfannkuchen;20");
 ```
 Hinweis: Nutzen Sie die Methode `String.split()`, um die einzelnen Argumente voneinander zu trennen. 
+Lassen Sie am besten die alten Konstruktoren stehen, da die ersten Tests damit laufen. 
 
 # Aufgabe 4
 
 Fügen Sie in der Klasse `RecipeBook` eine Hash Map hinzu (`HashMap<String, Integer>`), in der die Namen der Rezepte als Keys gespeichert sind und die zugehörige Zubereitungszeit als Values. Implementieren Sie eine Methode `public boolean addPrepTime(String recipeName, int preperationTime)`, die ein neues Rezept mit Zubereitungszeit zur Hash Map hinzufügt. Die Methode gibt True zurück, wenn es geklappt hat und False, wenn nicht. Überprüfen Sie vor dem Hinzufügen, ob ein Rezept mit dem gleichen Namen bereits vorhanden ist.
+Schreiben Sie auch einen getter (`getRecipeMap`) für die HashMap.
 Beispiel: `addPrepTime("Pfannkuchen", 15)` fügt das Rezept Pfannkuchen mit einer Zubereitungszeit von 15 Minuten hinzu. `addPrepTime("Pfannkuchen", 10)` gibt false zurück, wenn "Pfannkuchen" schon existiert. 
 
 # Aufgabe 5
